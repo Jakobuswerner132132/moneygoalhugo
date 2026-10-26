@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "moneygoal",
+	"version": "${version}",
+	"name": "MoneyGoal HUD",
+	"description": "Geld-Ziel per /moneygoal set, automatische /money-Abfrage alle 30 Sekunden und ein frei verschiebbares HUD.",
+	"authors": [
+		"Du"
+	],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"de.moneygoal.MoneyGoalClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

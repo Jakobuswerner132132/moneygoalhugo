@@ -70,7 +70,7 @@ public final class MoneyGoalCommand {
                     MoneyGoalClient.config().goal = 0.0d;
                     MoneyGoalClient.config().save();
                     return reply(context, "Ziel geloescht.");
-                }));
+                })));
     }
 
     private static int status(CommandContext<FabricClientCommandSource> context) {
